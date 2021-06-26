@@ -1,14 +1,7 @@
 # STUDY-directx-2d
-# INFLUENCER
+# I
 
 
-
-
-\
-[]()
-
-| ISSUE | Code Review| Line |
-|-------|------------|------|
 
 
 
