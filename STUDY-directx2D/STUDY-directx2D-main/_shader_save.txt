@@ -1,3 +1,5 @@
 _Shader
 추가 저장해줘야됨
 C:\2104_DirectX2D 이 경로에
+
+004_Effect.fx
