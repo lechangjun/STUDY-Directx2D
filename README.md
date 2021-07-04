@@ -10,13 +10,12 @@
 []()
 ## 📋 Flow chart
 1. directx2D 기본기 공부
-2. 남이 작성한 코드 공부
-3. 스스로 작성해보기
+2. 스스로 작성해보기
 
 \
 []()
 ## 🛠 Using Technology
-
+Directx, Win_API
 ---
 \
 \
