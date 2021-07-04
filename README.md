@@ -1,9 +1,14 @@
 # STUDY-directx-2d
-# I
+
+## PORTFOL 완성까지 
+
+
+# 공부 계획표
 
 
 
 
+![image](https://user-images.githubusercontent.com/68671394/124387673-6ea30e00-dd1a-11eb-91f3-7133b040dbb1.png)
 
 
 \
@@ -15,7 +20,12 @@
 \
 []()
 ## 🛠 Using Technology
-Directx, Win_API
+
+1.Directx
+
+2.Win API
+
+
 ---
 \
 \
