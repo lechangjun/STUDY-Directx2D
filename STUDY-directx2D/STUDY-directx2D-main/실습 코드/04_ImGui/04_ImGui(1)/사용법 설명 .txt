@@ -1,0 +1,26 @@
+Scene 에서 설정
+// 초기화
+void InitScene()
+{
+
+};
+// 소멸자
+void DestroyScene()
+{
+}
+// 시작하면서 돈다. 프레임
+void Update()
+{
+
+}
+// 게임프로그래밍 정규화
+// 
+void Render()
+{
+ 		ImGui::SliderFloat("X", &position.x, 100, Width - 100);
+		ImGui::SliderFloat("Y", &position.y, 100, Height - 100);
+
+		ImGui::SliderFloat("X2", &position2.x, 100, Width - 100);
+		ImGui::SliderFloat("Y2", &position2.y, 100, Height - 100);
+   
+}
