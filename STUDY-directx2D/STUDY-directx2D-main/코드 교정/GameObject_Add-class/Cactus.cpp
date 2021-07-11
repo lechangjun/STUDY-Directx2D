@@ -1,6 +1,8 @@
 #include "stdafx.h"
 #include "Cactus.h"
 
+// 주석달기
+
 Cactus::Cactus(wstring shaderFile, wstring textureFile, 
 	D3DXVECTOR2 p, D3DXVECTOR2 s, float * sFactor, vector<Cactus*>* h):
 	GameObject(p, s), speed(sFactor), holder(h), additionalSpeed(0)
