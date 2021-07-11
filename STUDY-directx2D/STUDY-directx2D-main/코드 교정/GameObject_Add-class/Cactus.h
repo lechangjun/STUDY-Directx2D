@@ -1,6 +1,8 @@
 #pragma once
 #include "GameObject.h"
 
+// 주석 축가
+
 class Cactus : public GameObject
 {
 public:
