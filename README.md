@@ -13,13 +13,17 @@
 
 \
 []()
-## 📋 Flow chart
+## 📋 
+
 
 
 \
 []()
 ## 🛠 Using Technology
 
+1. directx2D 
+2. win 32
+3. Imgui
 
 ---
 \
