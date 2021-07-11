@@ -1,6 +1,8 @@
 #include "stdafx.h"
 #include "Trex.h"
 
+//주 
+
 Trex::Trex(wstring shaderFile, wstring spriteFile, D3DXVECTOR2 pos, float sFactor):
 	GameObject(pos, D3DXVECTOR2(44,49)), 
 	velocity(0.0f), gravity(-1.0f), strength(0.25f), bOnGround(true), state(0)
