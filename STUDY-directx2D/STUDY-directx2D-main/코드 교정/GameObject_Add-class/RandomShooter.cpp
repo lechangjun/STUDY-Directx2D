@@ -1,6 +1,8 @@
 #include "stdafx.h"
 #include "RandomShooter.h"
 
+//주석
+
 RandomShooter::RandomShooter(wstring shaderFile, wstring textureFile, 
 	vector<Cactus*>* h, float * sf, D3DXVECTOR2 siz,
 	D3DXVECTOR2 i, D3DXVECTOR2 p, D3DXVECTOR2 smin, D3DXVECTOR2 smax) :
