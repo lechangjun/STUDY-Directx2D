@@ -1,6 +1,8 @@
 #include "stdafx.h"
 #include "GameObject.h"
 
+// 주석 추가
+
 GameObject::GameObject()
 {
 	position = D3DXVECTOR2(0, 0);
