@@ -1,4 +1,7 @@
 #pragma once
+
+// 주석
+
 class GameObject {
 public:
 	GameObject();
