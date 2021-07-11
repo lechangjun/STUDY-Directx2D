@@ -1,6 +1,8 @@
 #include "stdafx.h"
 #include "Ground.h"
 
+// 주석
+
 Ground::Ground(wstring shaderFile, wstring textureFile, D3DXVECTOR2 position, float* sFactor):
 	GameObject(position, D3DXVECTOR2(1200,12)), speed(sFactor)
 {
