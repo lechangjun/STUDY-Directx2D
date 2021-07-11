@@ -1,6 +1,6 @@
 #pragma once
 #include "./GameObject/Cactus.h"
-
+// add 주석
 /// This clss randomly generate cactus and flying cactus
 class RandomShooter {
 public:
