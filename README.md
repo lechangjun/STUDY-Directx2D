@@ -1,4 +1,4 @@
-# STUDY-Unity_Engine
+# STUDY-Directx2D
 
 ## PORTFOL 완성까지 
 
@@ -14,14 +14,12 @@
 \
 []()
 ## 📋 Flow chart
-1. Unity Engine 기본기 공부
-2. Engine 적용
+
 
 \
 []()
 ## 🛠 Using Technology
 
-1. Unity Engine
 
 ---
 \
