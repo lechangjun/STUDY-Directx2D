@@ -1,6 +1,8 @@
 #pragma once
 #include "GameObject.h"
 
+// 주석
+
 class Trex : public GameObject
 {
 public:
