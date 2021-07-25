@@ -1,7 +1,7 @@
-# STUDY-Directx2D
+# STUDY-Directx2D(Alone)
 
 ## PORTFOL 완성까지 
-
+SGA -> review
 
 # 공부 계획표
 
