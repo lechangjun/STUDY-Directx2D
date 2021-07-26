@@ -1,47 +1,33 @@
-# LAMP on Ubuntu 18.04
+# Sprite -> Clip class add 
+# clip 클래스 만들고 사용하기
 
-This playbook will install a LAMP environment (**L**inux, **A**pache, **M**ySQL and **P**HP) on an Ubuntu 18.04 machine, as explained in the guide on [How to Use Ansible to Install and Configure LAMP on Ubuntu 18.04](#). A virtualhost will be created with the options specified in the `vars/default.yml` variable file.
-
-## Settings
-
-- `mysql_root_password`: the password for the MySQL root account.
-- `app_user`: a remote non-root user on the Ansible host that will own the application files.
-- `http_host`: your domain name.
-- `http_conf`: the name of the configuration file that will be created within Apache.
-- `http_port`: HTTP port, default is 80.
-- `disable_default`: whether or not to disable the default Apache website. When set to true, your new virtualhost should be used as default website. Default is true.
+* clip 클래스 task
+1) sprite 이용하여 클립 클래스 생성
+2) Frame 구조체 : sprite 와 time 저장
+3) clip::addFrame(...) : vector에 Frame 구조체 저장
+4) Update() : 경과시간을 받아와 sprite를 띄워준 시간과 비교하여 다음 sprite를 띄워줄지 결정,clip sprite의 position, scale, rotation, update 갱신
 
 
-## Running this Playbook
+* Main.cpp
 
-Quickstart guide for those already familiar with Ansible:
+1) clip 객체 생성
+    
+        //  clip = new Clip(PlayMode::Loop);
+2) clip 객체에 sprite 등록, 값 설정, 재생
 
-### 1. Obtain the playbook
-```shell
-git clone https://github.com/do-community/ansible-playbooks.git
-cd ansible-playbooks/lamp_ubuntu1804
-```
+        // clip->AddFrame(new Sprite(spriteFile, shaderFile, 4, 2, 32, 40), 0.3f);
+        // clip->AddFrame(new Sprite(spriteFile, shaderFile, 35, 2, 64, 40), 0.3f);
+        // clip->AddFrame(new Sprite(spriteFile, shaderFile, 64, 2, 92, 40), 0.3f);
+        // clip->Position(200, 200);
+        // clip->Scale(2.5f, 2.5f);
+        // clip->Play();
 
-### 2. Customize Options
+ 3) clip 객체 Update, Render 해주기
 
-```shell
-nano vars/default.yml
-```
+## clip 애니메이션 개념 설명 
+<img width="482" alt="스크린샷 2021-07-26 오후 6 51 04" src="https://user-images.githubusercontent.com/68671394/126969964-29ab68ff-990b-416f-a761-a8da2d6f42fa.png">
 
-```yml
----
-mysql_root_password: "mysql_root_password"
-app_user: "sammy"
-http_host: "your_domain"
-http_conf: "your_domain.conf"
-http_port: "80"
-disable_default: true
-```
 
-### 3. Run the Playbook
+현재 상황 -> 오류 발견 바닥이 사라짐
 
-```command
-ansible-playbook -l [target] -i [inventory file] -u [remote user] playbook.yml
-```
-
-For more information on how to run this Ansible setup, please check this guide: [soon]().
+<img width="1440" alt="스크린샷 2021-07-26 오후 6 24 50" src="https://user-images.githubusercontent.com/68671394/126967885-b480cf8b-4c6d-44f3-a3d8-0f3340e5f958.png">
