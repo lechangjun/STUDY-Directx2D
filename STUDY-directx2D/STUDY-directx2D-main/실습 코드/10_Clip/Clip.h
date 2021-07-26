@@ -2,6 +2,7 @@
  
 // PlayMode::END 이렇게 사용 그냥 enum은 END 바로 사용가능
 enum class PlayMode { End = 0, Loop, Reverse };
+
  
 struct Frame
 {
