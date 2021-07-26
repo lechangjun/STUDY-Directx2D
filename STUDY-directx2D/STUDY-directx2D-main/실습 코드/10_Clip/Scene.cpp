@@ -3,6 +3,7 @@
 #include "./Render/Rect.h"
 #include "./Object/Bullet.h"
  
+
 // Sprite* mario;
 Sprite* allMario;
  
