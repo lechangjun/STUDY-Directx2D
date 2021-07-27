@@ -140,6 +140,8 @@ void Clip::Update(D3DXMATRIX V, D3DXMATRIX P)
     }
 }
  
+
+
 void Clip::Render()
 {
     Frame* frame = frames[currentFrame];
