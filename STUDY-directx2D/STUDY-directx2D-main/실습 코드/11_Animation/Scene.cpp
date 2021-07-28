@@ -3,6 +3,7 @@
 #include "Objects/Background.h"
 #include "Objects/Bullet.h"
 
+
 Background* bg;
 Animation* animation;
 
@@ -59,6 +60,7 @@ void DestroyScene()
 D3DXMATRIX V, P;
 void Update()
 {
+	
 	
 	//View
 	D3DXVECTOR3 eye(0, 0, -1);
