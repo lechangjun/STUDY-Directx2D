@@ -1,5 +1,6 @@
 #pragma once
 
+// 추가
 class Animation
 {
 public:
