@@ -3,6 +3,7 @@
 #include "Objects/Background.h"
 #include "Objects/Bullet.h"
 
+
 Background* bg;
 Clip* clip;
 
