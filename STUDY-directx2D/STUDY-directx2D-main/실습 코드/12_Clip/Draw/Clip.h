@@ -5,6 +5,8 @@ enum class PlayMode
 	End = 0, Loop, Reverse
 };
 
+
+
 struct Frame
 {
 	float Time;
