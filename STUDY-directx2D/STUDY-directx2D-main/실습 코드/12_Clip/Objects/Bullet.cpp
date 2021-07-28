@@ -1,6 +1,8 @@
 #include "stdafx.h"
 #include "Bullet.h"
 
+
+
 Bullet::Bullet(wstring shaderFile, D3DXVECTOR2 start, float angle, float speed)
 {
 	sprite = new Sprite(Textures + L"Bullets.png", shaderFile, 173, 155, 183, 167);
