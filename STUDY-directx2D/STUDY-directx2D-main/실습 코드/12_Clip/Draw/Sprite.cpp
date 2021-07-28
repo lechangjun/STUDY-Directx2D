@@ -180,3 +180,5 @@ void Sprites::Remove(wstring file)
 		spriteMap.erase(file);
 	}
 }
+
+
