@@ -2,6 +2,7 @@
 
 class Sprite
 {
+	
 public:
 	Sprite(wstring textureFile, wstring shaderFile);
 	Sprite(wstring textureFile, wstring shaderFile, float endX, float endY);
