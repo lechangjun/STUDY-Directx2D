@@ -1,5 +1,6 @@
 #pragma once
 
+
 enum class PlayMode
 {
 	End = 0, Loop, Reverse
