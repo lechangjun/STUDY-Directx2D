@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "Animation.h"
 
+
 Animation::Animation()
 	: currentClip(-1), position(0,0), scale(1,1)
 {
