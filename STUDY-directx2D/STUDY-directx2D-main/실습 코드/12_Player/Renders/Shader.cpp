@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "Shader.h"
 
+
 Shader::Shader(wstring file)
 	: file(file)
 {
