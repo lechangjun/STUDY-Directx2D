@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "Player.h"
 
+
 Player::Player(D3DXVECTOR2 position, D3DXVECTOR2 scale)
 	:moveSpeed(200.0f)
 {
