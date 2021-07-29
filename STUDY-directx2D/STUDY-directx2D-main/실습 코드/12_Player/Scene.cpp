@@ -3,6 +3,8 @@
 #include "Objects/Background.h"
 #include "Objects/Player.h"
 
+
+
 Background* bg;
 Player* player;
 Sprite* sprite;
