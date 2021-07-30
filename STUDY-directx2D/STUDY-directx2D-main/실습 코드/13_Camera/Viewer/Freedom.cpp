@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "Freedom.h"
 
+
 Freedom::Freedom(float speed)
 	:speed(speed)
 {
