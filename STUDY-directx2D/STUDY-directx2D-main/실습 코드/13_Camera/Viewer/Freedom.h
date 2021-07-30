@@ -2,6 +2,7 @@
 #include "Camera.h"
 
 
+
 class Freedom : public Camera
 {
 public:
