@@ -3,6 +3,7 @@
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nShowCmd)
 {
+	
 	InitWindow(hInstance, nShowCmd);
 	InitDirect3D(hInstance);
 
