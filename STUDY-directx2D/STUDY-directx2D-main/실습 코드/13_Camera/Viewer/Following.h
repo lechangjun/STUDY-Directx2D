@@ -2,6 +2,7 @@
 #include "IFollowing.h"
 #include "Camera.h"
 
+
 class Following : public Camera
 {
 public:
