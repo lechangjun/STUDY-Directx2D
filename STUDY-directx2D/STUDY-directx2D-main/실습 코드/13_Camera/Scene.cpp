@@ -5,6 +5,7 @@
 #include "Viewer/Freedom.h"
 #include "Viewer/Following.h"
 
+
 Background* bg;
 Player* player;
 Sprite* sprite;
