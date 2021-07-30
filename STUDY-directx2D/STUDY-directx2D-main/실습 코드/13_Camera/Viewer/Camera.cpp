@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "Camera.h"
 
+
 Camera::Camera()
 	: position(0,0)
 {
