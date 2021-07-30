@@ -8,6 +8,7 @@ Camera::Camera()
 	D3DXMatrixIdentity(&view);
 }
 
+
 Camera::~Camera()
 {
 }
