@@ -8,6 +8,7 @@ Freedom::Freedom(float speed)
 
 }
 
+
 Freedom::~Freedom()
 {
 }
