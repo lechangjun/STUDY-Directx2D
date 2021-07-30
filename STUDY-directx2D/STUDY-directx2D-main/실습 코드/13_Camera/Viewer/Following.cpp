@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "Following.h"
 
+
 Following::Following(IFollowing * focus)
 	: focus(focus)
 {
